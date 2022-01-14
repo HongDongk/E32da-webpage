@@ -14,6 +14,19 @@
   width: 1200px;
   margin: 0 auto;
 }
+.tit_wrap {
+  display: flex;
+  padding: 90px 0 0 50px;
+}
+.tit_wrap h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+.tit_wrap span {
+  font-size: 18px;
+  color: #686868;
+}
+
 
 @media all and (max-width: 1279px) {
     #header,

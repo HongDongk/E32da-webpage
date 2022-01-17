@@ -83,44 +83,49 @@
       <div id="login_container">
         <div class="container_pc">
           <div class="tit_wrap">
-            <h2>회원가입</h2>
-            <span>E-3DA  홈페이지 회원가입을 환영합니다.</span>
+            <h2> <img src="images/pc/pc_img_community_02.png" width=25px alt=""> 회원가입</h2>
+            <span>E-3DA 홈페이지 회원가입을 환영합니다.</span>
           </div>
 
-   
     <div id="must">* 필수 입력란 입니다.</div>
     
-    <form class="informations" action="()" method="get" enctype="multipart/form-data" >
+      <div class= main>
+      
+        <form class="informations" action="()" method="get" enctype="multipart/form-data" >
         
         <div id=nickname>
-            <label for='nname'>닉네임</label>
-            <input id='nname' name='nname' type='text' placeholder=' 닉네임을 설정하세요.'/> 
+          <label for='nname'>닉네임</label>
+          <input id='nname' name='nname' type='text' placeholder=' 닉네임을 설정하세요.'/> 
         </div>
         <div id=email>
-            <label for='email'>이메일*</label>
-            <input id='email' name='email' type='email' placeholder='* 이메일 주소를 입력하세요.'/> 
+          <label for='email'>이메일*</label>
+          <input id='email' name='email' type='email' placeholder='* 이메일 주소를 입력하세요.'/> 
         </div>
         <div id=password>
-            <label for='password'>비밀번호*</label>
-            <input id='password' name='password' type='password' placeholder='* 최소 8자리 이상(영문, 숫자, 특수문자 중 2가지 이상 조합)'/> 
+          <label for='password'>비밀번호*</label>
+          <input id='password' name='password' type='password' placeholder='* 최소 8자리 이상(영문, 숫자, 특수문자 중 2가지 이상 조합)'/> 
         </div>
         <div id=confirm>
-            <label for='confirm'>비밀번호확인*</label>
-            <input id='confirm' name='confirm' type='password' placeholder='* 확인을 위해 비밀번호를 재입력해주세요.'/> 
+          <label for='confirm'>비밀번호확인*</label>
+          <input id='confirm' name='confirm' type='password' placeholder='* 확인을 위해 비밀번호를 재입력해주세요.'/> 
         </div>
-        <span id=phonenumber>
-            <label for='pnumber'>휴대폰번호*</label>
-            <input id='pnumber' name='pnumber' type='tel' placeholder='* 전화번호를 입력하세요.'/> 
-        </span>
-        <span><button>인증</button></span>
+        <div id=phonenumber>
+          <label for='pnumber'>휴대폰번호*</label>
+          <input id='pnumber2' name='pnumber' type='tel' placeholder='* 전화번호를 입력하세요.'/> 
+          <span><button>인증</button></span>
+        </div>
         
-        <p>
-          <input type="submit" value="가입하기">
-        </p>
-    </form>
+          <p>
+             <input id='submit' type="submit" value="가입하기">
+          </p>
+        </form>
+    
+      </div>
 
-
-  </body>
-
-
+      </div>
+    </div>
+    
+   
+      
+   </body>
 </html>

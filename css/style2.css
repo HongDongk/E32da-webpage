@@ -1,0 +1,36 @@
+@charset "UTF-8";
+#wrap {
+  background: url(../images/pc/pc_bg_noti_01.svg) no-repeat left top;
+}
+#faq_container {
+  background: url(../images/pc/pc_bg_noti_02.svg) no-repeat right bottom;
+}
+#checkbox{
+    width: 100px;
+    margin-top:1000px;
+
+}
+
+.container_pc {
+  width: 1200px;
+  margin: 0 auto;
+}
+.tit_wrap {
+    display: flex;
+    padding: 34px 0 70px;
+}
+.tit_wrap h2 {
+    font-size: 34px;
+    font-weight: 700;
+}
+.tit_wrap span {
+    font-size: 18px;
+    color: #686868;
+    padding: 30px 0 0 20px;
+}
+
+
+
+
+
+ 
